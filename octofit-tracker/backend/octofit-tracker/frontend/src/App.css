@@ -1,0 +1,93 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f9f9f9 100%);
+  min-height: 100vh;
+  color: #1a237e;
+}
+
+
+.App-logo {
+  height: 60px;
+  width: auto;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: #1976d2;
+  color: #fff;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  border-radius: 0 0 1rem 1rem;
+}
+
+
+.App-link {
+  color: #1976d2;
+  font-weight: 500;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+.App-link:hover {
+  color: #0d47a1;
+}
+
+/* Bootstrap overrides */
+.navbar {
+  background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%) !important;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.1);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover {
+  color: #ffd600 !important;
+}
+
+h2, .card-title {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+.table-primary {
+  background: #e3f2fd !important;
+  color: #1976d2 !important;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: #f1f8e9;
+}
+.table-hover tbody tr:hover {
+  background: #bbdefb;
+}
+
+.btn-primary {
+  background: #1976d2;
+  border: none;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background: #0d47a1;
+}
+
+.card {
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.08);
+  border-radius: 1rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
